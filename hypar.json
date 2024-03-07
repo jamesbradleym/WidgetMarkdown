@@ -1,0 +1,24 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "6641812a-336b-42ae-955b-c07c0977f307",
+  "name": "widget markdown",
+  "description": "The WidgetMarkdown function.",
+  "language": "C#",
+  "outputs": [],
+  "input_schema": {
+    "properties": {
+      "Plug": {
+        "type": [
+          "string",
+          null
+        ]
+      }
+    }
+  },
+  "element_types": [
+    "https://schemas.hypar.io/Note.json"
+  ],
+  "repository_url": "https://github.com/hypar-io/function",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.11.0-alpha.18"
+}
